@@ -1,0 +1,21 @@
+{
+	"name": "upload",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./bin/index.js",
+	"bin": {
+		"upload-cli": "bin/upload-cli"
+	},
+	"keywords": [],
+	"type": "module",
+	"author": "Jack Humphries",
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^5.0.1",
+		"dotenv": "^16.0.0",
+		"esm": "^3.2.25",
+		"express": "^4.17.3",
+		"google-auth-library": "^7.14.0",
+		"googleapis": "^96.0.0"
+	}
+}
